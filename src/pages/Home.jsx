@@ -1,9 +1,12 @@
 import React from 'react'
 
-export default function Home() {
-    return (
-        <div>
+// components
+import Recipes from '../components/Recipes'
 
-        </div>
+export default function Home(props) {
+    return (
+        <>
+            <Recipes apiRandom = {props.apiUrlRandom} apiKey = {props.apikey} apiSearch = {props.apiSearch} />
+        </>
     )
 }
