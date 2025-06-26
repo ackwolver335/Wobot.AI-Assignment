@@ -1,12 +1,148 @@
-# React + Vite
+# 🍲 Recipe Book Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and interactive Recipe Book web application built using **React.js**, integrating the **Spoonacular Recipe API** to showcase recipes, their details, ingredients, and cooking instructions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+**🔗 [View Deployed App Here](#)**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📌 Project Objective
+
+To build a modern web application that:
+
+* Fetches recipe data from the Spoonacular API.
+* Displays a homepage with a list of recipes.
+* Provides detailed information for each recipe on a separate page.
+* Ensures smooth navigation and error handling.
+* Is visually appealing and user-friendly.
+
+---
+
+## 🧩 Core Features
+
+* ✅ API Integration with Spoonacular
+* ✅ Homepage listing recipes with brief descriptions
+* ✅ Dynamic routing using React Router
+* ✅ Recipe Details Page (name, image, ingredients, instructions)
+* ✅ Navigation Bar for user flow
+* ✅ Error handling for API and network issues
+* ✅ Responsive and clean UI
+
+---
+
+## 💡 Bonus Features (Optional)
+
+*You can list the ones you've implemented here:*
+
+* 🔍 Search recipes by name or ingredients
+* 🏷️ Filter recipes by category or tags
+* 🔐 User authentication to save favorite recipes
+* ⭐ Add review or rating system
+
+---
+
+## 🛠️ Tech Stack
+
+* React.js
+* React Router
+* TailwindCSS / CSS Modules
+* Spoonacular API
+* Axios (for HTTP requests)
+
+---
+
+## 📁 Folder Structure
+
+```
+src/
+│
+├── components/
+│   ├── Navbar.jsx
+│   ├── RecipeCard.jsx
+│   └── ...
+│
+├── pages/
+│   ├── Home.jsx
+│   └── RecipeDetails.jsx
+│
+├── App.js
+└── index.js
+```
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/recipe-book-app.git
+cd recipe-book-app
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Setup Environment Variables
+
+Create a `.env` file in the root directory and add your API key:
+
+```
+REACT_APP_API_KEY=your_spoonacular_api_key
+```
+
+> You can get your API key from [https://spoonacular.com/food-api](https://spoonacular.com/food-api)
+
+### 4. Start the Development Server
+
+```bash
+npm start
+```
+
+---
+
+## ⚙️ Deployment
+
+* Deployed on:  **Vercel / GitHub Pages**
+* [🔗 Live Link](#) 
+
+---
+
+## ❗ Error Handling
+
+The app includes user-friendly error messages for:
+
+* Network issues
+* Invalid or missing data
+* API failures or rate limits
+
+---
+
+## 📬 Submission Info
+
+* ✅ Public GitHub Repository with all source code
+* ✅ Deployed Link
+* ✅ Completed within 2-day assignment window
+
+---
+
+## 📝 License
+
+This project is developed for the **Frontend Internship 2024** assignment at **Wobot Intelligence Pvt. Ltd.**
+**Please do not share publicly or post on social media platforms.**
+
+---
+
+## 🙏 Acknowledgements
+
+* [Spoonacular API](https://spoonacular.com/food-api)
+* [React Documentation](https://reactjs.org/)
+* [React Router](https://reactrouter.com/)
+* [Wobot Intelligence](https://wobot.ai)
