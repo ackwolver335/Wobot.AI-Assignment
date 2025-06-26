@@ -7,6 +7,7 @@ import Recipe from './pages/Recipe'
 
 // components regarding page header & footer
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -28,7 +29,7 @@ function App() {
             </Routes>
 
             {/* Footer regarding further information */}
-
+            <Footer />
         </>
     )
 }

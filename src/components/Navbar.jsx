@@ -15,10 +15,12 @@ export default function Navbar() {
             {/* Heading and Title Block */}
             <div className="headBlock flex flex-col items-start xsz:gap-2 cursor-pointer">
 
-                <div className="textNIcon flex flex-row items-center xsz:gap-2 lg:gap-3">
-                    <BookOpen className="text-white xsz:w-6 xsz:h-6 xl:w-8 xl:h-8" />
-                    <h3 className="text-white font-merriweather font-bold sm:text-lg lg:text-2xl xl:text-3xl"> Delicious Recipe Book </h3>
-                </div>
+                <Link to="/">
+                    <div className="textNIcon flex flex-row items-center xsz:gap-2 lg:gap-3">
+                        <BookOpen className="text-white xsz:w-6 xsz:h-6 xl:w-8 xl:h-8" />
+                        <h3 className="text-white font-merriweather font-bold sm:text-lg lg:text-2xl xl:text-3xl"> Delicious Recipe Book </h3>
+                    </div>
+                </Link>
 
                 <p className="xsz:text-sm font-poppins text-white xsz:hidden xl:block">
                     Discover amazing recipes for every occasion
