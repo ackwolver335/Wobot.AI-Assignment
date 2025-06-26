@@ -36,4 +36,20 @@
     .font-roboto {
         font-family: "Roboto", serif;
     }
+
+    .summary {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        /* vendor-prefixed version */
+        line-clamp: 3;
+        /* standard version (future-proof) */
+        overflow: hidden;
+    }
+
+    @supports (line-clamp: 3) {
+        .summary {
+            line-clamp: 3;
+        }
+    }
 }

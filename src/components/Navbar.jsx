@@ -10,7 +10,7 @@ export default function Navbar() {
     }
 
     return (
-        <div className="flex flex-row fixed right-0 left-0 top-0 bg-linear-60 justify-between from-gradOne xsz:items-center lg:items-start to-gradTwo xsz:py-3 xsz:px-4 sm:py-4 lg:px-6 xl:py-5 xsz:shadow-md lg:shadow-xl xsz:rounded-b-md lg:rounded-b-xl">
+        <div className="z-10 flex flex-row fixed right-0 left-0 top-0 bg-linear-60 justify-between from-gradOne xsz:items-center lg:items-start to-gradTwo xsz:py-3 xsz:px-4 sm:py-4 lg:px-6 xl:py-5 xsz:shadow-md lg:shadow-xl xsz:rounded-b-md lg:rounded-b-xl">
 
             {/* Heading and Title Block */}
             <div className="headBlock flex flex-col items-start xsz:gap-2 cursor-pointer">
