@@ -49,7 +49,6 @@ To build a modern web application that:
 * React Router
 * TailwindCSS / CSS Modules
 * Spoonacular API
-* Axios (for HTTP requests)
 
 ---
 
