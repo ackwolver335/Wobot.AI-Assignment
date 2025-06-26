@@ -59,9 +59,9 @@ export default function Footer() {
                     </p>
 
                     {/* Block regarding Email & Content */}
-                    <div className="flex flex-row items-center gap-0">
-                        <input type="email" placeholder="Your Email" className="font-poppins font-medium xsz:text-sm lg:text-base text-footBG bg-footFT outline-none xsz:px-3 xsz:py-1 xsz:rounded-l-md lg:rounded-l-lg" />
-                        <button type="button" className="font-poppins font-medium xsz:text-sm lg:text-base text-white bg-gradOne xsz:px-3 xsz:py-1 xsz:rounded-r-md lg:rounded-r-lg active:scale-95 hover:scale-105 ease-in duration-150 cursor-pointer"> Subscribe </button>
+                    <div className="flex flex-row items-center w-fit gap-0">
+                        <input type="email" placeholder="Your Email" className="font-poppins w-fit font-medium xsz:text-sm lg:text-base text-footBG bg-footFT outline-none xsz:px-3 xsz:py-1 xsz:rounded-l-md lg:rounded-l-lg" />
+                        <button type="button" className="font-poppins font-medium xsz:text-sm w-fit lg:text-base text-white bg-gradOne xsz:px-3 xsz:py-1 xsz:rounded-r-md lg:rounded-r-lg active:scale-95 hover:scale-105 ease-in duration-150 cursor-pointer"> Subscribe </button>
                     </div>
 
                 </div>
