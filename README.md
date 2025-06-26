@@ -40,8 +40,6 @@ To build a modern web application that:
 
 * 🔍 Search recipes by name or ingredients
 * 🏷️ Filter recipes by category or tags
-* 🔐 User authentication to save favorite recipes
-* ⭐ Add review or rating system
 
 ---
 
