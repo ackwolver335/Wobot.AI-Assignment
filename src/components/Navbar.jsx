@@ -1,5 +1,6 @@
 import React from 'react'
 import { BookOpen } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
 
@@ -32,7 +33,7 @@ export default function Navbar() {
 
             {/* Lists regarding different Navigation */}
             <ul className="menuList flex xsz:flex-col xsz:absolute xsz:top-16 sm:top-18 xsz:right-4 xsz:bg-linear-120 xsz:from-gradOne xsz:to-gradTwo xsz:py-2 xsz:px-3 xsz:text-sm sm:px-4 sm:text-base xsz:rounded-lg xsz:shadow-lg md:bg-none md:relative md:top-0 right-0 md:shadow-none md:flex-row items-center xsz:gap-2 md:gap-4 lg:py-1 text-white font-poppins xsz:translate-x-40 md:translate-x-0 ease-in duration-250">
-                <a href="#" className="md:hover:underline md:hover:underline-offset-5"> <li> Home </li> </a>
+                <Link to="/" className="md:hover:underline md:hover:underline-offset-5"> <li> Home </li> </Link>
                 <a href="#" className="md:hover:underline md:hover:underline-offset-5"> <li> Categories </li> </a>
                 <a href="#" className="md:hover:underline md:hover:underline-offset-5"> <li> Favourite </li> </a>
                 <a href="#" className="md:hover:underline md:hover:underline-offset-5"> <li> About </li> </a>

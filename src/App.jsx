@@ -24,7 +24,7 @@ function App() {
             {/* Routes & Navigations */}
             <Routes>
                 <Route path="/" element={<Home apiUrlRandom = {apiUrl} apikey = {apiKey} apiSearch = {apiSearch} />} />
-                <Route path="/recipe" element={<Recipe apiGetInfo={apiGetInfo} />}/>
+                <Route path="/recipeDetails" element={<Recipe apiGetInfo={apiGetInfo} />}/>
             </Routes>
 
             {/* Footer regarding further information */}
