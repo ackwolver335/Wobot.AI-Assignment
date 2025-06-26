@@ -6,7 +6,7 @@ A responsive and interactive Recipe Book web application built using **React.js*
 
 ## 🚀 Live Demo
 
-**🔗 [View Deployed App Here](#)**
+**🔗 [View Deployed App Here](https://wobot-ai-assignment-rho.vercel.app/)**
 
 ---
 
@@ -108,7 +108,7 @@ npm start
 ## ⚙️ Deployment
 
 * Deployed on:  **Vercel / GitHub Pages**
-* [🔗 Live Link](#) 
+* [🔗 Live Link](https://wobot-ai-assignment-rho.vercel.app/) 
 
 ---
 
