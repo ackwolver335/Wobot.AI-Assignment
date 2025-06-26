@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <div className="bg-footBG xsz:px-5 xsz:py-4 lg:px-8 lg:py-6 xl:py-10 flex flex-col items-center xsz:gap-4 lg:gap-5 xl:gap-6">
+        <div className="bg-footBG xsz:px-5 xsz:py-4 lg:px-8 lg:py-6 xl:py-10 flex flex-col items-center xsz:gap-4 lg:gap-3 xl:gap-6">
 
             {/* Block regarding Links & Redirection */}
-            <div className="flex xsz:flex-col xsz:items-start w-full md:justify-evenly md:flex-row xsz:gap-5 lg:gap-4">
+            <div className="flex xsz:flex-col xsz:items-start w-fit md:justify-evenly md:flex-row xsz:gap-5 lg:gap-4">
 
                 {/* Heading & Intro Block */}
                 <div className="flex flex-col items-start xsz:gap-3 lg:gap-4">
@@ -59,8 +59,8 @@ export default function Footer() {
                     </p>
 
                     {/* Block regarding Email & Content */}
-                    <div className="flex flex-row items-center w-fit gap-0">
-                        <input type="email" placeholder="Your Email" className="font-poppins w-fit font-medium xsz:text-sm lg:text-base text-footBG bg-footFT outline-none xsz:px-3 xsz:py-1 xsz:rounded-l-md lg:rounded-l-lg" />
+                    <div className="flex flex-row items-center gap-0">
+                        <input type="email" placeholder="Your Email" className="font-poppins w-2/3 font-medium xsz:text-sm lg:text-base text-footBG bg-footFT outline-none xsz:px-3 xsz:py-1 xsz:rounded-l-md lg:rounded-l-lg" />
                         <button type="button" className="font-poppins font-medium xsz:text-sm w-fit lg:text-base text-white bg-gradOne xsz:px-3 xsz:py-1 xsz:rounded-r-md lg:rounded-r-lg active:scale-95 hover:scale-105 ease-in duration-150 cursor-pointer"> Subscribe </button>
                     </div>
 
