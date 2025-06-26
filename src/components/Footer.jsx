@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="bg-footBG xsz:px-5 xsz:py-4 lg:px-8 lg:py-6 xl:py-10 flex flex-col items-center xsz:gap-4 lg:gap-3 xl:gap-6">
 
             {/* Block regarding Links & Redirection */}
-            <div className="flex xsz:flex-col xsz:items-start w-fit md:justify-evenly md:flex-row xsz:gap-5 lg:gap-4">
+            <div className="flex xsz:flex-col xsz:items-start xsz:w-fit lg:w-full md:justify-evenly md:flex-row xsz:gap-5 lg:gap-4">
 
                 {/* Heading & Intro Block */}
                 <div className="flex flex-col items-start xsz:gap-3 lg:gap-4">
